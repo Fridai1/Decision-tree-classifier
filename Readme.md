@@ -41,10 +41,6 @@ We then split our dataset into training and testing sets:
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size = 0.10, random_state = 0)
 ```
 
-Next we do something that we don't believe is neccesarry in this case, but we chose to do it anyway as it shouldn't decrease the accuracy but rather incrase it, we feature scaled our values.
-which changes them like so:
-
-![](py4.png)
 
 We then define our classifier and apply the training and testing data:
 
@@ -87,4 +83,4 @@ Image(graph.create_png())
 
  And it creates a diagram looking like this:
 
- ![](graph_decoded.png)
+ ![](graph_without_scaling.png)
